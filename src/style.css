@@ -1,17 +1,17 @@
 html {
   --section-background-color: linear-gradient(
-    to bottom left,
-    rgba(17, 16, 16, 0.582),
-    rgba(12, 8, 24, 0.904)
+    to top left,
+    #070A52,
+    #454545
   );
 
   --image-gradient: linear-gradient(
     to bottom left,
-    rgba(17, 16, 16, 0.678),
-    rgba(12, 10, 22, 0.863)
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.3)
   );
 
-  --imp-text-color: #c770f0;
+  --imp-text-color: #070A52;
 }
 
 .purple {
@@ -97,7 +97,7 @@ button:focus {
 
 .navbar-toggler span {
   display: block !important;
-  background-color: #be50f4 !important;
+  background-color: #070A52 !important;
   height: 4px !important;
   width: 27px !important;
   margin-top: 5px !important;
@@ -258,10 +258,12 @@ button:focus {
   position: relative;
   z-index: -1;
   background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
-  background-position: top center;
+  background-size: cover;
   background-repeat: no-repeat;
   padding-bottom: 30px !important;
   padding-top: 30px !important;
+  height: 100vh;
+  opacity: 0.7;
 }
 
 .home-content {
@@ -281,7 +283,7 @@ button:focus {
 }
 
 .main-name {
-  color: #cd5ff8;
+  color: #332FD0;
 }
 
 .Typewriter__wrapper {
@@ -308,6 +310,10 @@ button:focus {
 .myAvtar {
   justify-content: center !important;
   padding-top: 9em !important;
+}
+
+.myAvtar img{
+  border-radius: 50%;
 }
 
 @media (max-width: 767px) {
