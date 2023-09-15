@@ -8,33 +8,35 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Soumyajit Behera </span>
-            from <span className="purple"> Bhubaneswar, India.</span>
-            <br /> I am a final year student pursuing an Integrated MSc (IMSc)
-            in Maths and Computing at BIT Mesra.
+          Olá, eu sou <span className="blue">Elias Gomes, </span>
+          natural do <span className="blue">  Maranhão, Brasil.</span>
+            <br /> Atualmente, estou cursando Engenharia de Software como parte da minha graduação, e estou me aprofundando no mundo do desenvolvimento full stack.
             <br />
-            Additionally, I am currently employed as a software developer at
-            Juspay.
+            Meu foco principal envolve o estudo constante e a execução de diversos projetos para aprimorar minhas habilidades. 
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            Além disso, tenho dedicado parte do meu tempo ao estudo da ciência de dados utilizando Python, uma jornada que tem sido incrivelmente empolgante.
+            <br />
+            <br />
+            Fora do mundo acadêmico e profissional, tenho uma paixão por:
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> Explorar os mistérios do universo.
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
+              <ImPointRight /> Cuidar da minha saúde física e mental.
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight /> Abraçar diferentes perspectivas e aprender com elas.
             </li>
           </ul>
 
-          <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+          <p style={{ color: "#070A52" }}>
+            "Se você não tiver talento para explorar seu talento, nunca chegará ao auge do seu potencial"{" "}
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          <footer className="blockquote-footer">François Ducasse
+</footer>
         </blockquote>
       </Card.Body>
     </Card>

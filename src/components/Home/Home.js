@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
 import Projects from "../Projects/Projects";
@@ -9,7 +8,6 @@ function Home() {
   return (
     <section>
       <Container fluid className="home-section" id="home">
-        
         <Container className="home-content" style={{textAlign: "right" }}>
           <Row>
             <Col className="home-header">
