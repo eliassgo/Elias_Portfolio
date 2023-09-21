@@ -4,6 +4,7 @@ import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Footer from "./components/Footer";
 import Resume from "./components/Resume/ResumeNew";
+import ProjectsList from './components/Projects/ListaDeProjetos'
 import {
   BrowserRouter as Router,
   Route,
@@ -20,11 +21,11 @@ function App() {
     <Router>
       <div className="App" >
         <Navbar />
-
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/resume" element={<Resume />} />
+          <Route path="/projectsList" element={<ProjectsList />}/> 
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
         <Footer />

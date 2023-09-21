@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Home2 from "./Home2";
 import Type from "./Type";
 import Projects from "../Projects/Projects";
+import About from "../About/About";
 
 function Home() {
   return (
@@ -23,7 +24,7 @@ function Home() {
                 <strong className="main-name"> ELIAS GOMES </strong>
               </h1>
 
-              <div style={{ padding: 50, textAlign: "right" }}>
+              <div className="home-type">
                 <Type />
               </div>
             </Col>
@@ -32,6 +33,7 @@ function Home() {
       </Container>
       <Home2 />
       <Projects/>
+      <About/>
     </section>
   );
 }

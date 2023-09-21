@@ -8,6 +8,7 @@ import {
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
+
 function Home2() {
   return (
     <Container fluid className="home-about-section" id="about">
@@ -54,10 +55,7 @@ function Home2() {
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>FIND ME ON</h1>
-            <p>
-              Feel free to <span className="blue">connect </span>with me
-            </p>
+            <h1>CONEXÕES</h1>
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a

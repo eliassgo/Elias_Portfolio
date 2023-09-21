@@ -2,8 +2,7 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
   SiVisualstudiocode,
-  SiSlack,
-  SiVercel,
+  SiVercel
 } from "react-icons/si";
 
 function Toolstack() {

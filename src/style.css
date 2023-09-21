@@ -1,3 +1,5 @@
+
+
 html {
   --section-background-color: linear-gradient(
     to top left,
@@ -211,6 +213,19 @@ button:focus {
 /* --------- */
 /* Home section */
 /* --------- */
+
+.divLink{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.divisor{
+  flex: 1;
+  height: 1px;
+  background-color: #ccc;
+  margin: 0 10px;
+}
 .wave {
   animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
   animation-duration: 2.1s; /* Change to speed up or slow down */
@@ -253,6 +268,11 @@ button:focus {
   height: 100%;
 }
 
+.home-type {
+  padding: 50px;
+  text-align: right;
+  margin-right: 60px;
+}
 .home-header {
   padding-top: 80px !important;
 }
@@ -307,6 +327,9 @@ button:focus {
   }
   .Typewriter__cursor {
     display: none !important;
+  }
+  .home-type{
+    text-align: center;
   }
 }
 
