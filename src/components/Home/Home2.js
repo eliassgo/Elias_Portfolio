@@ -15,34 +15,35 @@ function Home2() {
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
-            Breve <span className="blue"> Apresentação </span> 
+            <h1 style={{ fontSize: "2.6em" }} className="">
+            Breve
+             Apresentação 
             </h1>
             <p className="home-about-body">
             Sou um entusiasta da 
             <i>
-                <b className="blue"> programação  </b>
+                <b className=""> programação  </b>
               </i>
             em busca de explorar as 
             <i>
-                <b className="blue">  tecnologias  </b>
+                <b className="">  tecnologias  </b>
               </i>
            que moldam nosso mundo digital. 
             Possuo muita paixão pelo vasto universo cósmico, estrelas e pela complexidade da mente humana, e expresso essas paixões por meio do meu trabalho.
               <br />
               <br />Tenho experiência em diversas tecnologias,
               <i>
-                <b className="blue"> incluindo JavaScript, React.js e TypeScript. </b>
+                <b className=""> incluindo JavaScript, React.js e TypeScript. </b>
               </i>
               <br />
               <br />
               Atualmente, estou focado no  
               <i>
-                <b className="blue"> desenvolvimento web, </b> aprimorando constantemente minhas habilidades nesta área em constante evolução.
+                <b className=""> desenvolvimento web, </b> aprimorando constantemente minhas habilidades nesta área em constante evolução.
               </i>
               <br />
               <br />
-              Em meus projetos, faço uso de uma variedade de ferramentas,<b className="blue"> como Bootstrap, jQuery, Grunt e SASS.
+              Em meus projetos, faço uso de uma variedade de ferramentas,<b className=""> como Bootstrap, jQuery, Grunt e SASS.
 </b>
               
             </p>

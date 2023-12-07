@@ -15,13 +15,13 @@ import todo_list from "../../Assets/Projects/todo_list.png";
 
 function Projects() {
   return (
-    <Container fluid className="project-section">
+    <Container fluid className="project-section" id="projects">
       <Container>
         <h1 className="project-heading">
           <strong className="blue"> Projetos </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Esses são projetos que eu fiz em cursos livres e no meu curso de graduação
+          Explore os projetos que desenvolvi durante minha jornada acadêmica, cursos livres e iniciativas pessoais.
         </p>
         
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>

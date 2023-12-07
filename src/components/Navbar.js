@@ -3,6 +3,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import { Link } from "react-router-dom";
+import { HashLink} from 'react-router-hash-link'
 import {
   AiOutlineHome,
 } from "react-icons/ai";
@@ -44,9 +45,39 @@ function NavBar() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto" defaultActiveKey="#home">
             <Nav.Item>
-              <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
+              <Nav.Link as={Link} to="/home" onClick={() => updateExpanded(false)}>
                 <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
               </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item style={{ marginTop: '11px'}}>
+              <HashLink
+              style={{ color: "#fff", textDecoration: 'none', fontSize: '19px' }}
+                to="/home#about"
+                onClick={() => updateExpanded(false)}
+              >
+                <CgFileDocument style={{ marginBottom: "2px" }} /> Apresentação
+              </HashLink>
+            </Nav.Item>
+
+            <Nav.Item style={{ marginTop: '11px'}}>
+              <HashLink
+                to="/home#projects"
+                style={{ color: "#fff", textDecoration: 'none', fontSize: '19px' }}
+                onClick={() => updateExpanded(false)}
+              >
+                <CgFileDocument style={{ marginBottom: "2px" }} /> Projetos
+              </HashLink>
+            </Nav.Item>
+
+            <Nav.Item style={{ marginTop: '11px'}}>
+              <HashLink
+                to="/home#skillset"
+                style={{ color: "#fff", textDecoration: 'none', fontSize: '19px' }}
+                onClick={() => updateExpanded(false)}
+              >
+                <CgFileDocument style={{ marginBottom: "2px" }} /> Skillset
+              </HashLink>
             </Nav.Item>
 
             <Nav.Item>
@@ -58,6 +89,8 @@ function NavBar() {
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
               </Nav.Link>
             </Nav.Item>
+
+            
           </Nav>
         </Navbar.Collapse>
       </Container>

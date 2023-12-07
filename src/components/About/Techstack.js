@@ -19,7 +19,7 @@ import {
 } from "react-icons/si";
 function Techstack() {
   return (
-    <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+    <Row style={{ justifyContent: "center", paddingBottom: "50px" }} id="skillset">
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
       </Col>

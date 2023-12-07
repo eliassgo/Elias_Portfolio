@@ -32,7 +32,7 @@ function AboutCard() {
             </li>
           </ul>
 
-          <p style={{ color: "#070A52" }}>
+          <p style={{ color: "" }}>
             "Se você não tiver talento para explorar seu talento, nunca chegará ao auge do seu potencial"{" "}
           </p>
           <footer className="blockquote-footer">François Ducasse
