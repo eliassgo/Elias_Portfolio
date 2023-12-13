@@ -50,9 +50,9 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item style={{ marginTop: '11px'}}>
+            <Nav.Item style={{ marginTop: '13px', marginLeft: '0'}}>
               <HashLink
-              style={{ color: "#fff", textDecoration: 'none', fontSize: '19px' }}
+              style={{ color: "#fff", textDecoration: 'none', fontSize: '19.2px' }}
                 to="/home#about"
                 onClick={() => updateExpanded(false)}
               >
@@ -60,20 +60,20 @@ function NavBar() {
               </HashLink>
             </Nav.Item>
 
-            <Nav.Item style={{ marginTop: '11px'}}>
+            <Nav.Item style={{ marginTop: '13px'}}>
               <HashLink
                 to="/home#projects"
-                style={{ color: "#fff", textDecoration: 'none', fontSize: '19px' }}
+                style={{ color: "#fff", textDecoration: 'none', fontSize: '17px' }}
                 onClick={() => updateExpanded(false)}
               >
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Projetos
               </HashLink>
             </Nav.Item>
 
-            <Nav.Item style={{ marginTop: '11px'}}>
+            <Nav.Item style={{ marginTop: '13px'}}>
               <HashLink
                 to="/home#skillset"
-                style={{ color: "#fff", textDecoration: 'none', fontSize: '19px' }}
+                style={{ color: "#fff", textDecoration: 'none', fontSize: '17px' }}
                 onClick={() => updateExpanded(false)}
               >
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Skillset

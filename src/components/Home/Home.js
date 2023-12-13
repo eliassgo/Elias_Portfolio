@@ -9,7 +9,7 @@ function Home() {
   return (
     <section>
       <Container fluid className="home-section" id="home">
-        <Container className="home-content" style={{textAlign: "right" }}>
+        <Container className="home-content" style={{textAlign: "center" }}>
           <Row>
             <Col className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
@@ -24,7 +24,7 @@ function Home() {
                 <strong className="main-name"> ELIAS GOMES </strong>
               </h1>
 
-              <div className="home-type">
+              <div style={{paddingTop: "40px"}}>
                 <Type />
               </div>
             </Col>

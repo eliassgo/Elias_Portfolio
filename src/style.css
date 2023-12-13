@@ -279,7 +279,7 @@ button:focus {
 .home-section {
   position: relative;
   z-index: -1;
-  background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
+  background-image: var(--image-gradient), url(./Assets/banner-updated.png);
   background-size: cover;
   background-repeat: no-repeat;
   padding-bottom: 30px !important;
@@ -305,7 +305,7 @@ button:focus {
 }
 
 .main-name {
-  color: #332FD0;
+  color: #B31312;
 }
 
 .Typewriter__wrapper {

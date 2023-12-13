@@ -12,6 +12,8 @@ import global_solution from "../../Assets/Projects/global_solution.png";
 import interestellar from "../../Assets/Projects/interestellar.png";
 import schneider from "../../Assets/Projects/schneider.png";
 import todo_list from "../../Assets/Projects/todo_list.png";
+import efood from "../../Assets/Projects/efood.png";
+import eplay from "../../Assets/Projects/eplay.png";
 
 function Projects() {
   return (
@@ -25,6 +27,34 @@ function Projects() {
         </p>
         
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={eplay} title="E-commer de Jogos Online - Eplay"
+              isBlog={false}
+              description="
+              E-commerce de compra de jogos online, desenvolvido em React
+               com Typescript e estilização com Styled Component.
+              React Router para navegação entre as páginas, Integração de API para receber dados dinâmicos, gerenciamento da integração com Redux
+              Gerenciamento global dados com Redux
+              Yup e Formik para validação de formulários
+              "
+              ghLink="https://github.com/eliassgo/loja_virtual_eplay.git"
+              demoLink="https://eplay-shop.vercel.app/"              
+            />
+          </Col>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={efood} title="E-commer de Comida - Efood"
+              isBlog={false}
+              description="E-commerce de compra de comida online, página de apresentação, cardápio e checkout.
+              Código desenvolvido em React com Typescript e estilização com Styled Component.  
+              React Router para navegação entre as páginas, Integração de API para receber dados dinâmicos, gerenciamento da integração com Redux,
+           Gerenciamento global dados com Redux "
+              ghLink="https://github.com/eliassgo/e-commerce_efood.git"
+              demoLink="https://e-commerce-efood.vercel.app/"              
+            />
+          </Col>
+          
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={global_solution} title="Global Solution - Combate à fome mundial e à escassez de alimentos"
@@ -35,15 +65,15 @@ function Projects() {
             />
           </Col>
           <Col md={4} className="project-card">
-  <ProjectCard
-    imgPath={clone_disney}
-    title="Projeto Calculadora de IMC com ReactJs"
-    isBlog={false}
-    description="Com os dados fornecidos pelo usuário, coletamos os valores de altura e peso e os enviamos para as respectivas constantes. Em seguida, utilizamos a função useState para atualizá-los automaticamente. Realizamos uma verificação do tipo de dado e, então, acionamos a função calculaIMC para retornar o IMC, classificação, Grau de obesidade e, ainda, alterar a cor correspondente à faixa de IMC em que o usuário se encontra na tabela geral."
-    ghLink="https://github.com/eliassgo/calculadora_de_imc.git"
-    demoLink="https://calculadora-de-imc-khaki.vercel.app/"
-  />
-</Col>
+              <ProjectCard
+                imgPath={clone_disney}
+                title="Projeto Calculadora de IMC com ReactJs"
+                isBlog={false}
+                description="Com os dados fornecidos pelo usuário, coletamos os valores de altura e peso e os enviamos para as respectivas constantes. Em seguida, utilizamos a função useState para atualizá-los automaticamente. Realizamos uma verificação do tipo de dado e, então, acionamos a função calculaIMC para retornar o IMC, classificação, Grau de obesidade e, ainda, alterar a cor correspondente à faixa de IMC em que o usuário se encontra na tabela geral."
+                ghLink="https://github.com/eliassgo/calculadora_de_imc.git"
+                demoLink="https://calculadora-de-imc-khaki.vercel.app/"
+              />
+           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={schneider} title="Challenge Scheneider Eletric"
