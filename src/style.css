@@ -279,7 +279,7 @@ button:focus {
 .home-section {
   position: relative;
   z-index: -1;
-  background-image: var(--image-gradient), url(./Assets/banner-updated.png);
+  background-image: var(--image-gradient), url(./Assets/banner-option02.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
   padding-bottom: 30px !important;
